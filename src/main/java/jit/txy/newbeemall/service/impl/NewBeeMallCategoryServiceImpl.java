@@ -1,14 +1,15 @@
 package jit.txy.newbeemall.service.impl;
 
-import jit.txy.newbeemall.common.GoodsCategory;
 import jit.txy.newbeemall.common.ServiceResultEnum;
 import jit.txy.newbeemall.dao.GoodsCategoryMapper;
+import jit.txy.newbeemall.entity.GoodsCategory;
 import jit.txy.newbeemall.service.NewBeeMallCategoryService;
 import jit.txy.newbeemall.util.PageQueryUtil;
 import jit.txy.newbeemall.util.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
 
@@ -19,7 +20,7 @@ import java.util.List;
 @Service
 public class NewBeeMallCategoryServiceImpl implements NewBeeMallCategoryService {
 
-    @Autowired
+    @Resource
     private GoodsCategoryMapper goodsCategoryMapper;
 
     @Override

@@ -94,4 +94,6 @@ public class NewBeeAdminManageUserAPI {
         adminUserService.logout(adminUser.getAdminUserId());
         return ResultGenerator.genSuccessResult();
     }
+
+
 }

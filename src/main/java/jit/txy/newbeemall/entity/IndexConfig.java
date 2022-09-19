@@ -1,4 +1,4 @@
-package jit.txy.newbeemall.common;
+package jit.txy.newbeemall.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
@@ -6,20 +6,22 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @author 唐星宇
- * @date 2022/9/16
- **/
+ * @author XiaNingIf
+ * @date 2022/9/19
+ */
 @Data
-public class GoodsCategory {
-    private Long categoryId;
+public class IndexConfig {
+    private Long configId;
 
-    private Byte categoryLevel;
+    private String configName;
 
-    private Long parentId;
+    private Byte configType;
 
-    private String categoryName;
+    private Long goodsId;
 
-    private Integer categoryRank;
+    private String redirectUrl;
+
+    private Integer configRank;
 
     private Byte isDeleted;
 

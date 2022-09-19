@@ -1,6 +1,6 @@
 package jit.txy.newbeemall.dao;
 
-import jit.txy.newbeemall.common.GoodsCategory;
+import jit.txy.newbeemall.entity.GoodsCategory;
 import jit.txy.newbeemall.util.PageQueryUtil;
 import org.apache.ibatis.annotations.Param;
 

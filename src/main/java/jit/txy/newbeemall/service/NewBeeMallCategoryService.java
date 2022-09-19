@@ -1,6 +1,6 @@
 package jit.txy.newbeemall.service;
 
-import jit.txy.newbeemall.common.GoodsCategory;
+import jit.txy.newbeemall.entity.GoodsCategory;
 import jit.txy.newbeemall.util.PageQueryUtil;
 import jit.txy.newbeemall.util.PageResult;
 
